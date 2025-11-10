@@ -1,0 +1,51 @@
+body {
+    background-color: #000; /* fundo preto */
+    color: #fff; /* texto branco */
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+  .caixa {
+    background-color: #1a1a1a; 
+    border: 5px inset #ff9900;
+    border-radius: 15px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 10px #090909;
+    max-width: 400px;
+  }
+
+  h1 {
+    color: #ff8c00; 
+    margin-bottom: 10px;
+  }
+
+  .emoji {
+    font-size: 50px;
+    margin: 10px 0 20px;
+  }
+
+  form {
+    margin-top: 10px;
+  }
+
+  input {
+    background-color: #ff8c00;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  input:hover {
+    background-color: #ffa733;
+    transform: scale(1.05);
+  }
